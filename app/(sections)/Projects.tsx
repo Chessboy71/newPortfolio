@@ -2,6 +2,7 @@ import rapskey from "@/public/rapskey.png";
 import consCorp from "@/public/consCorp.png";
 import tutoraProf from "@/public/tutoraProf.png";
 import dentist from "@/public/dentistProject.png";
+import ecom from "@/public/ecom.png";
 
 import ProjectCard from "../components/ProjectCard";
 
@@ -30,7 +31,7 @@ const ProjectsSection = () => {
               "Redux",
             ]}
             year="24"
-            link="/projects/rapskey"
+            link="https://qantra.ai/en/cas-client/rapskey-2/"
           />
         </div>
         <div className="w-[45%]">
@@ -58,10 +59,9 @@ const ProjectsSection = () => {
         <div className="w-[30%]">
           {/* Project Card */}
           <ProjectCard
-            title="Rapskey"
-            description="is a Regulatory Information Management (RIM) software developed to 
-        simplify and modernize how pharmaceutical companies manage their regulatory projects and data in Africa and MENA region"
-            imageSrc={rapskey.src}
+            title="Local Ecommerce"
+            description="An ecommerce website, with a fresh modern look that gives everything the user needs. Filters, clean and easy showcase of product, and performance."
+            imageSrc={ecom.src}
             technologies={[
               "React",
               "TypeScript",
@@ -89,7 +89,7 @@ const ProjectsSection = () => {
               "framer motion",
             ]}
             year="24"
-            link="/projects/rapskey"
+            link="https://cons-corp.vercel.app/"
           />
         </div>
         <div className="w-[30%]">
@@ -106,7 +106,7 @@ const ProjectsSection = () => {
               "Figma",
             ]}
             year="24"
-            link="/projects/rapskey"
+            link="https://tutora-prof.vercel.app/"
           />
         </div>
       </div>
