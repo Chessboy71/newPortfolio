@@ -7,7 +7,7 @@ import React, { ReactNode } from "react";
 
 const HeroSection = () => {
   const element: ReactNode = (
-    <h2 className="text-7xl font-black tracking-tighter w-1/2">
+    <h2 className="2xl:text-7xl text-6xl font-black tracking-tighter w-1/2">
       Hey, I'm Yacine <br />
       full-stack developer <br />
       based in Medea Algeria.
@@ -22,8 +22,8 @@ const HeroSection = () => {
   );
   return (
     <section className="flex relative flex-col py-6 min-h-[70vh] bg-cover w-screen">
-      <div className="absolute flex h-[70vh] w-screen flex-col items-center justify-center overflow-hidden left-0 top-0">
-        <StripedPattern className="mask-[radial-gradient(20rem_circle_at_center,white,transparent)] w-full opacity-70" />
+      <div className="absolute flex h-[70vh] w-screen flex-col items-center justify-center overflow-hidden left-0 top-16">
+        <StripedPattern className="2xl:mask-[radial-gradient(20rem_circle_at_center,white,transparent)] mask-[radial-gradient(15rem_circle_at_center,white,transparent)] w-full 2xl:opacity-70 opacity-50" />
       </div>
 
       <div className="flex flex-col items-center">

@@ -11,7 +11,7 @@ const Experience = () => {
   return (
     <section
       id="experience"
-      className=" w-full px-[10vw] flex flex-row gap-10 py-96 items-start"
+      className="w-full px-[10vw] flex flex-row gap-10 2xl:py-96 py-64 items-start"
     >
       <div className="text-6xl font-black w-1/2 leading-16 -tracking-[0.075em] pr-12 ">
         <h4 className="text-base font-darker font-black text-neutral-500  uppercase tracking-normal">

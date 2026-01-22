@@ -18,7 +18,7 @@ const StackSection = () => {
       <h4 className="text-xl  font-darker font-bold text-amber-600">
         Tech stack
       </h4>
-      <div className="relative h-150 w-full overflow-hidden">
+      <div className="relative 2xl:h-150 h-125 w-full overflow-hidden">
         <div className="absolute inset-0 flex items-center justify-center flex-row gap-8 z-50">
           <div className="grayscale rounded-full p-3 bg-white/10  hover:grayscale-0 scale-75 opacity-70 hover:scale-90 hover:opacity-100 transition-all duration-500 flex flex-col items-center gap-4 group">
             <Image
@@ -107,7 +107,7 @@ const StackSection = () => {
         </div>
         <Ripple mainCircleSize={150} numCircles={4} />
       </div>
-      <div className="w-1/2 text-center text-lg font-semibold">
+      <div className="2xl:w-1/2 w-full text-center text-lg font-semibold">
         Almost two years of experience as a JavaScript fullstack developer with
         a frontend focus, mostly comfortable working with React.js and Next.js.
         Experienced in building RESTful APIs using Express.js and Node.js.

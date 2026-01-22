@@ -1,4 +1,8 @@
 import rapskey from "@/public/rapskey.png";
+import consCorp from "@/public/consCorp.png";
+import tutoraProf from "@/public/tutoraProf.png";
+import dentist from "@/public/dentistProject.png";
+
 import ProjectCard from "../components/ProjectCard";
 
 const ProjectsSection = () => {
@@ -32,16 +36,18 @@ const ProjectsSection = () => {
         <div className="w-[45%]">
           {/* Project Card */}
           <ProjectCard
-            title="Rapskey"
-            description="is a Regulatory Information Management (RIM) software developed to 
-        simplify and modernize how pharmaceutical companies manage their regulatory projects and data in Africa and MENA region"
-            imageSrc={rapskey.src}
+            title="Dentist Clinic"
+            description="This project is currently in developement, a platform where combines between a dashboard that tracks the dentist's patients information, 
+            their appointmenets, medical history and future work"
+            imageSrc={dentist.src}
             technologies={[
               "React",
               "TypeScript",
               "Tailwind",
               "ShadCn",
               "Redux",
+              "node",
+              "express",
             ]}
             year="24"
             link="/projects/rapskey"
@@ -70,16 +76,17 @@ const ProjectsSection = () => {
         <div className="w-[30%]">
           {/* Project Card */}
           <ProjectCard
-            title="Rapskey"
-            description="is a Regulatory Information Management (RIM) software developed to 
-        simplify and modernize how pharmaceutical companies manage their regulatory projects and data in Africa and MENA region"
-            imageSrc={rapskey.src}
+            title="constCorp"
+            description="A front-end implementation of an existing backend to showcase a company specialised in construction with a dashboard, authentification 
+            and smooth transition between the elements."
+            imageSrc={consCorp.src}
             technologies={[
               "React",
               "TypeScript",
               "Tailwind",
               "ShadCn",
               "Redux",
+              "framer motion",
             ]}
             year="24"
             link="/projects/rapskey"
@@ -88,18 +95,15 @@ const ProjectsSection = () => {
         <div className="w-[30%]">
           {/* Project Card */}
           <ProjectCard
-            title="Rapskey"
-            description="is a Regulatory Information Management (RIM) software developed to 
-        simplify and modernize how pharmaceutical companies manage their regulatory projects and data in Africa and MENA region"
-            imageSrc={rapskey.src}
+            title="TutoraProf"
+            description="A UI/UX study with a landing page for a promising private school in Montreal, Canada. Includes a full presentation and contact form of the parents and potential tutor recruits"
+            imageSrc={tutoraProf.src}
             technologies={[
               "React",
               "TypeScript",
               "Tailwind",
               "ShadCn",
-              "Redux",
-              "Redux",
-              "Redux",
+              "Figma",
             ]}
             year="24"
             link="/projects/rapskey"
