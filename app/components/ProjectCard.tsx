@@ -20,7 +20,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
   year,
 }) => {
   return (
-    <div className="flex-1 h-125 p-6 bg-zinc-900/70 rounded-xl border-white/5 border relative overflow-hidden group cursor-pointer flex flex-col justify-between">
+    <div className="flex-1 h-125 p-6 bg-zinc-900/70 rounded-xl border-white/10 border relative overflow-hidden group cursor-pointer flex flex-col justify-between">
       <div>
         <div className="w-full bg-amber-50 text-white h-3/4 rounded-full rounded-t-none absolute top-0 left-0 blur-3xl z-0 opacity-0 group-hover:opacity-5 transition-all duration-300 delay-100"></div>
         <div className="text-zinc-800 font-black text-5xl opacity-0 group-hover:opacity-100 transition-all duration-700 absolute top-2 right-2">

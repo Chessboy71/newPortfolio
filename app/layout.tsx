@@ -24,7 +24,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="w-screen overflow-x-hidden">
-      <body className={`${bricolage.variable} ${darker.variable} antialiased`}>
+      <body
+        className={`${bricolage.variable} ${darker.variable} antialiased overflow-x-hidden`}
+      >
         {children}
       </body>
     </html>

@@ -8,15 +8,15 @@ import ProjectCard from "../components/ProjectCard";
 
 const ProjectsSection = () => {
   return (
-    <section className="w-screen flex flex-col items-center justify-center min-h-[60vh] px-[10vw] mt-24">
-      <h2 className="text-7xl font-black tracking-tighter bg-linear-to-r from-white  to-white/80 text-transparent bg-clip-text">
+    <section className="w-screen flex flex-col items-center justify-center min-h-[60vh] lg:px-[10vw] px-3 lg:mt-24 mt-12">
+      <h2 className="text-7xl text-center font-black tracking-tighter bg-linear-to-r from-white  to-white/80 text-transparent bg-clip-text">
         Check it yourself
       </h2>
       <h4 className="text-xl font-darker font-bold text-amber-600">
         Projects Showcase
       </h4>
       <div className="flex flex-row flex-wrap w-full mt-12 gap-8 justify-center max-w-7xl">
-        <div className="w-[45%]">
+        <div className="lg:w-[45%] w-full">
           {/* Project Card */}
           <ProjectCard
             title="Rapskey"
@@ -34,7 +34,7 @@ const ProjectsSection = () => {
             link="https://qantra.ai/en/cas-client/rapskey-2/"
           />
         </div>
-        <div className="w-[45%]">
+        <div className="lg:w-[45%] w-full">
           {/* Project Card */}
           <ProjectCard
             title="Dentist Clinic"
@@ -56,7 +56,7 @@ const ProjectsSection = () => {
         </div>
       </div>
       <div className="flex flex-row flex-wrap w-full mt-12 gap-4 justify-center max-w-7xl">
-        <div className="w-[30%]">
+        <div className="lg:w-[30%] w-full">
           {/* Project Card */}
           <ProjectCard
             title="Local Ecommerce"
@@ -73,7 +73,7 @@ const ProjectsSection = () => {
             link="/projects/rapskey"
           />
         </div>
-        <div className="w-[30%]">
+        <div className="lg:w-[30%] w-full">
           {/* Project Card */}
           <ProjectCard
             title="constCorp"
@@ -92,7 +92,7 @@ const ProjectsSection = () => {
             link="https://cons-corp.vercel.app/"
           />
         </div>
-        <div className="w-[30%]">
+        <div className="lg:w-[30%] w-full">
           {/* Project Card */}
           <ProjectCard
             title="TutoraProf"

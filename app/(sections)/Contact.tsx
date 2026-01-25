@@ -1,14 +1,14 @@
 import MaskedSection from "../components/MaskedSection";
-import { Copy, Facebook, Github, Instagram, Linkedin } from "lucide-react";
+import { Copy, Github, Instagram, Linkedin } from "lucide-react";
 
 const Contact = () => {
   const element = (
-    <h2 className="text-8xl font-black tracking-tighter  bg-linear-to-r from-white  to-white/80 text-transparent bg-clip-text">
+    <h2 className="lg:text-8xl text-6xl font-black tracking-tighter  bg-linear-to-r from-white  to-white/80 text-transparent bg-clip-text">
       Feel free to get in touch for potential opportunities
     </h2>
   );
   const maskedElement = (
-    <p className="bg-linear-to-r from-zinc-700  text-8xl to-black/80 text-transparent bg-clip-text text-center ml-auto mr-auto">
+    <p className="bg-linear-to-r from-zinc-700 text-6xl lg:text-8xl to-black/80 text-transparent bg-clip-text text-center ml-auto mr-auto">
       ... or let's build your next project
     </p>
   );

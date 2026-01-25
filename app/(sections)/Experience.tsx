@@ -11,9 +11,9 @@ const Experience = () => {
   return (
     <section
       id="experience"
-      className="w-full px-[10vw] flex flex-row gap-10 2xl:py-96 py-64 items-start"
+      className="w-full px-6 lg:px-[10vw] flex lg:flex-row flex-col gap-10 2xl:py-96 lg:py-64 py-32 items-start"
     >
-      <div className="text-6xl font-black w-1/2 leading-16 -tracking-[0.075em] pr-12 ">
+      <div className="2xl:text-6xl lg:text-5xl text-5xl font-black w-full lg:w-1/2 lg:leading-16 -tracking-[0.075em] lg:pr-12 ">
         <h4 className="text-base font-darker font-black text-neutral-500  uppercase tracking-normal">
           About
         </h4>
@@ -21,7 +21,7 @@ const Experience = () => {
         engineered, production-ready{" "}
         <span className="text-amber-600">experiences</span>
       </div>
-      <div className="w-1/2 text-amber-50  text-2xl font-darker font-medium pt-4 flex flex-col">
+      <div className="lg:w-1/2 text-amber-50  text-2xl font-darker font-medium pt-4 flex flex-col">
         <div>
           Currently focusing on making my projects feel alive with a strong
           focus on interactions, experience and animations.
@@ -57,7 +57,7 @@ const Experience = () => {
         <div className="uppercase text-neutral-600 font-black font-darker py-6 text-base">
           Companies I've worked with
         </div>
-        <div className="flex flex-row items-center gap-8">
+        <div className="flex flex-row items-center flex-wrap gap-8">
           <Image
             src={consCorp}
             alt="consCorp logo"

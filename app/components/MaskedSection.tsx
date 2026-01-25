@@ -51,7 +51,7 @@ const MaskedSection = ({
           ref={maskRef}
         >
           <h2
-            className="2xl:text-7xl text-6xl font-black tracking-tighter max-ww-2/3 text-center"
+            className="2xl:text-7xl lg:text-6xl text-4xl font-black tracking-tighter w-full lg:max-w-2/3 text-center"
             onMouseEnter={() => setIsHovered(true)}
             onMouseLeave={() => setIsHovered(false)}
           >

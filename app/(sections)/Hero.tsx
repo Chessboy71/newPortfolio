@@ -7,7 +7,7 @@ import React, { ReactNode } from "react";
 
 const HeroSection = () => {
   const element: ReactNode = (
-    <h2 className="2xl:text-7xl text-6xl font-black tracking-tighter w-1/2">
+    <h2 className="2xl:text-7xl lg:text-6xl text-4xl font-black tracking-tighter lg:w-1/2 w-full">
       Hey, I'm Yacine <br />
       full-stack developer <br />
       based in Medea Algeria.
