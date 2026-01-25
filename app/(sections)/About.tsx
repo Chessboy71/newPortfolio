@@ -20,7 +20,7 @@ const About = () => {
         clean code, reusable components, and thoughtful interactions that make
         products easy to use and maintain.
         <Link
-          href="/projects"
+          href="https://drive.google.com/file/d/1l3yZ1yz2Zpse1sGEknrXuve7ZFBIOzwA/view"
           className="mt-4 font-bricolage font-black uppercase tracking-tighter text-xl text-white flex items-center group gap-2 hover:text-amber-600 transition-all duration-300"
         >
           Learn More{" "}
